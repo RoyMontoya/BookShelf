@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BookListActivity">
+
+    <it.neokree.materialtabs.MaterialTabHost
+        android:id="@+id/tab_host"
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:iconColor="#FFFFFF"
+        app:primaryColor="@color/colorPrimary"
+        app:accentColor="@color/colorAccent"
+        app:hasIcons="true"/>
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+</LinearLayout>
