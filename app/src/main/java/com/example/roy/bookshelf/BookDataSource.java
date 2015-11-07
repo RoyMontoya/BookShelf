@@ -18,7 +18,7 @@ public class BookDataSource {
         query.findInBackground(new FindCallback<Book>() {
             @Override
             public void done(List<Book> list, ParseException e) {
-               
+
                 sBooks = list;
             }
         });
